@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Srikanth Manda">
+	<link rel="canonical" href="https://srikanthmanda.com/ascii-text-json-stringifier/">
+	<title>ASCII Text JSON Stringifier: Convert ASCII text to JSON String</title>
+	<script type="module" src="./index.js"></script>
+	<link rel="stylesheet" type="text/css" href="./web.css">
+</head>
+
+<body>
+	<h1>ASCII Text JSON Stringifier</h2>
+	<div id="about">
+		<p>A utility to convert ASCII text to a JSON string.
+		<br>For example, to store a X.509 <strong>public</strong> certificate of PEM format as a JSON string.
+		<br>Source: <a href="https://github.com/srikanthmanda/ascii-text-json-stringifier">github.com/srikanthmanda/ascii-text-json-stringifier</a></p>
+	</div>
+	<div id="input">
+		<label for="ascii_text">ASCII text</label>
+		<textarea class="codebox" id="ascii_text" name="ascii_text" required autofocus
+			placeholder="Paste your ASCII text here ..."></textarea>
+	</div>
+	<div id="controls">
+		<button type="button" id="json_stringify_ascii_text">JSON Stringify ASCII Text</button>
+		<button type="button" id="copy_json_string">Copy JSON String</button>
+		<button type="button" id="clear_input_text">Clear Input Text</button>
+	</div>
+	<br>
+	<div id="output">
+		<label for="json_string">JSON String</label>
+		<textarea class="codebox" id="json_string" name="json_string" readonly
+			placeholder="JSON String will appear here ..."></textarea>
+	</div>
+</body>
+
+</html>
