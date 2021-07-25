@@ -1,5 +1,7 @@
 # JSON Stringify ASCII Text
 
+[![Node.js CI](https://github.com/srikanthmanda/ascii-text-json-stringifier/actions/workflows/node.js.yml/badge.svg)](https://github.com/srikanthmanda/ascii-text-json-stringifier/actions/workflows/node.js.yml)
+
 Convert ASCII text to JSON String by escaping appropropriate characters.
 
 _Note_: Since ASCII characters are a subset of Unicode characters and none have `u <hex> <hex> <hex> <hex>` format,
